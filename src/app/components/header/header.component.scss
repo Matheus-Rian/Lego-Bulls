@@ -1,0 +1,31 @@
+
+.containerHeader {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  .logo {
+    margin-top: -1rem;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    li {
+      margin: 1.25rem;
+      a {
+        color: #7D7D7D;
+        padding-bottom: 0.5rem;
+        transition: border-bottom 0.2s, color 0.2s;
+
+        &:hover {
+          color: #593B80;
+          border-bottom: 5px solid #593B80;
+        }
+      }
+    }
+  }
+}
