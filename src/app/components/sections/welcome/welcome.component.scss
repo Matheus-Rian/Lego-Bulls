@@ -1,5 +1,6 @@
 .containerSection {
   margin-top: 1.6rem;
+  margin-bottom: 4rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -51,8 +52,16 @@
       background-color: #eb5757;
       border-radius: 40px;
       color: #f7f7fc;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      transition: background-color 0.2s;
+      font-size: 1rem;
+      &:hover {
+        background-color: #e23939;
+      }
     }
   }
   .imgWelcome {
+    filter: drop-shadow(10px 6px 4px rgba(0, 0, 0, 0.25));
   }
 }
