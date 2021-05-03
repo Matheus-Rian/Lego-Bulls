@@ -1,0 +1,62 @@
+.containerProjects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 9rem;
+  margin-right: 9rem;
+
+  .topic {
+    margin-top: -2rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .informationProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .title {
+      margin-bottom: 2rem;
+      h2 {
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 3rem;
+      }
+      .season {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        p {
+          font-family: "Inter", sans-serif;
+          font-weight: 700;
+          font-size: 1rem;
+          color: #593b80;
+        }
+        .square {
+          margin-right: 0.5rem;
+          width: 1.8rem;
+          height: 1.8rem;
+          background: #90db62;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+      }
+    }
+
+    .description {
+      display: flex;
+      justify-content: row;
+      p {
+        padding-right: 3rem;
+        margin-bottom: 1rem;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+      }
+    }
+  }
+}
