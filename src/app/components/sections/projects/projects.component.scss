@@ -15,7 +15,9 @@
     font-weight: 400;
     font-size: 1rem;
   }
+
   .informationProject {
+    margin-left: 1.25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,15 +50,40 @@
     }
 
     .description {
+      .navigation-left {
+        position: relative;
+        top: -2rem;
+        right: 6rem;
+      }
+      .navigation-right {
+        position: relative;
+        top: -2rem;
+        left: 5rem;
+      }
       display: flex;
       justify-content: row;
       p {
+        margin-left: -3.8rem;
         padding-right: 3rem;
         margin-bottom: 1rem;
         font-family: "Inter", sans-serif;
         font-weight: 400;
         font-size: 1rem;
       }
+    }
+  }
+
+  .navigation-low {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .circle {
+      margin: 0.3rem;
+      width: 1.6rem;
+      height: 1.6rem;
+      border-radius: 50px;
+      background-color: red;
     }
   }
 }

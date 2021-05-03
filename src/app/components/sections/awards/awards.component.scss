@@ -1,0 +1,62 @@
+.containerAwards {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  .topic {
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .containerCards {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .card {
+      // margin: 4rem;
+      margin: 2rem;
+      width: 250px;
+      height: 360px;
+      background: url(../../../../assets/trophy.png);
+
+      .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 1rem;
+        position: relative;
+        top: 180px;
+        z-index: 1;
+        height: 180px;
+        width: 250px;
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 0px 0px 25px 25px;
+        color: white;
+
+        .category {
+          font-size: 0.9rem;
+          font-family: "Roboto", sans-serif;
+          font-weight: 900;
+        }
+
+        .subCategory {
+          font-size: 1.2rem;
+          font-family: "Inter", sans-serif;
+          font-weight: 700;
+        }
+
+        .history {
+          font-size: 0.8rem;
+          font-family: "Inter", sans-serif;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
