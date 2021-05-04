@@ -1,0 +1,39 @@
+.card {
+  margin: 2rem;
+  width: 13.625rem;
+  height: 20.5rem;
+  background: url(../../../assets/trophy.png);
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+    position: relative;
+    top: 180px;
+    z-index: 1;
+    height: 180px;
+    width: 250px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 0px 0px 25px 25px;
+    color: white;
+
+    .category {
+      font-size: 0.9rem;
+      font-family: "Roboto", sans-serif;
+      font-weight: 900;
+    }
+
+    .subCategory {
+      font-size: 1.2rem;
+      font-family: "Inter", sans-serif;
+      font-weight: 700;
+    }
+
+    .history {
+      font-size: 0.8rem;
+      font-family: "Inter", sans-serif;
+      font-weight: 400;
+    }
+  }
+}
