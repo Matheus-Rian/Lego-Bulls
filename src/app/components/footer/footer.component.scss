@@ -1,7 +1,9 @@
 .containerFooter {
   margin-top: 9rem;
+  position: relative;
+  bottom: 0;
   width: 100%;
-  height: 300px;
+  // height: 18.75rem;
   background-color: #3c3d41;
   display: flex;
   flex-direction: row;
@@ -10,47 +12,48 @@
   .bulls {
     .smallVerticalLine {
       position: relative;
-      top: 40px;
-      left: 80px;
-      height: 50px;
+      top: 2.5rem;
+      left: 5rem;
+      height: 2.5rem;
       border-left: 2px solid #fff;
     }
 
     .logo {
       position: relative;
-      top: 60px;
-      left: 75px;
+      top: 3.75rem;
+      left: 4.688rem;
     }
 
     .largerVerticalLine {
       position: relative;
-      top: 75px;
-      left: 80px;
-      height: 100px;
+      top: 4.688rem;
+      left: 5rem;
+      height: 6.25rem;
       border-left: 2px solid #fff;
     }
   }
   .navigation {
     display: flex;
-    padding-left: 200px;
+    padding-left: 12.5rem;
     flex-direction: row;
-    margin-bottom: 6px;
-    margin-left: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 0.375rem;
+    margin-left: 2.5rem;
     align-items: center;
 
     ul {
-      margin: 40px;
+      margin: 2.5rem;
       color: #fff;
       font-family: "Inter", sans-serif;
       font-weight: 700;
 
       p {
-        font-size: 20px;
-        margin-bottom: 6px;
+        font-size: 1.25rem;
+        margin-bottom: 0.375rem;
       }
 
       li {
-        margin-bottom: 6px;
+        margin-bottom: 0.375rem;
         font-weight: 300;
       }
     }
@@ -58,13 +61,13 @@
       display: flex;
       flex-direction: column;
       button {
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem;
         color: #f7f7fc;
         font-family: "Poppins", sans-serif;
         font-weight: 600;
-        width: 160px;
-        height: 45px;
-        border-radius: 25px;
+        width: 10rem;
+        height: 2.813rem;
+        border-radius: 1.563rem;
       }
       .instagram {
         background-color: #c83b91;
