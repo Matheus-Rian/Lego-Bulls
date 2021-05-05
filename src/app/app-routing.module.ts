@@ -13,15 +13,23 @@ const routes: Routes = [
     loadChildren: () =>
       import('./views/login/login.module').then((m) => m.LoginModule),
   },
+
+  { 
+    path: 'f1-home', 
+    loadChildren: () => 
+      import('./views/f1-home/f1-home.module').then(m => m.F1HomeModule)
+  },  
+
   {
     path: '',
     redirectTo: '/home',
     pathMatch: 'full',
   },
+
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
