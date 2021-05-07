@@ -28,7 +28,7 @@
     }
   }
   .messageWelcome {
-    display: block;
+    // display: block;
     width: 35rem;
 
     h2 {
@@ -52,7 +52,7 @@
       background-color: #eb5757;
       border-radius: 40px;
       color: #f7f7fc;
-      font-family: 'Poppins', sans-serif;
+      font-family: "Poppins", sans-serif;
       font-weight: 600;
       transition: background-color 0.2s;
       font-size: 1rem;
@@ -63,5 +63,60 @@
   }
   .imgWelcome {
     filter: drop-shadow(10px 6px 4px rgba(0, 0, 0, 0.25));
+    width: 240px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 1170px) {
+  .containerSection {
+    .imgWelcome {
+      img {
+        width: 240px;
+        height: 480px;
+      }
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  .containerSection {
+    .messageWelcome {
+      margin-left: 3rem;
+      h2 {
+        font-size: 3rem;
+      }
+      h4 {
+        font-size: 1rem;
+      }
+      .moreInformation {
+        width: 8rem;
+        height: 3rem;
+        border-radius: 30px;
+        font-size: 0.8rem;
+      }
+    }
+    .imgWelcome {
+      img {
+        margin-top: 3rem;
+        width: 230px;
+        height: 380px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .status {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .messageWelcome {
+    margin-right: 2rem;
+    text-align: center;
+  }
+  .imgWelcome {
+    display: none;
   }
 }
