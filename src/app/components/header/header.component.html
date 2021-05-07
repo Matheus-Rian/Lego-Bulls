@@ -2,15 +2,22 @@
   <div class="logo">
     <img src="../../../assets/logo-header.png" alt="logo da Lego Bulls">
   </div>
-  <nav class="navigation">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">First Lego League</a></li>
-      <li><a [routerLink] = "['/f1-home']" >F1 in schools</a></li>
-      <li><a href="#">Olímpiada de Robótica</a></li>
-    </ul>
-  </nav>
-  <button disabled class="menu">
+  <div class="menu-section">
+    <nav class="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">First Lego League</a></li>
+        <li><a [routerLink]="['/f1-home']">F1 in schools</a></li>
+        <li><a href="#">Olímpiada de Robótica</a></li>
+      </ul>
+    </nav>
+    <!-- <button class="menu on">
     <img src="../../../assets/menu-hambuguer.png" alt="menu">
-  </button>
+  </button> -->
+    <div class="menu-toggle on">
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="three"></div>
+    </div>
+  </div>
 </header>
