@@ -83,7 +83,7 @@
       width: 1.6rem;
       height: 1.6rem;
       border-radius: 50px;
-      background-color: red;
+      background-color: #a8a6ae;
     }
   }
 }
@@ -143,8 +143,7 @@
 
 @media (max-width: 400px) {
   .containerProjects {
-    margin-left: 5rem;
-    width: 100vw;
+    width: 70vw;
   }
   .navigation-low {
     margin-top: 10rem;
@@ -161,3 +160,24 @@
   }
 }
 
+@media (max-width: 320px) {
+  .containerProjects {
+    .informationProject {
+      .title {
+        h2 {
+          font-size: 2rem;
+        }
+      }
+      .description {
+        width: 100px;
+        p {
+          padding-right: 0;
+        }
+        .paragraphs {
+          width: 30vw;
+        }
+      }
+    }
+    width: 50vw;
+  }
+}
