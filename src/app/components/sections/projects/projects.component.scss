@@ -78,6 +78,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-content: flex-end;
+    flex-direction:row ;
     .circle {
       margin: 0.3rem;
       width: 1.6rem;
@@ -143,8 +145,16 @@
 
 @media (max-width: 400px) {
   .containerProjects {
-    margin-left: 5rem;
-    width: 100vw;
+    // margin-left: 5rem;
+    width: 70vw;
+    .container {
+      // margin-left: -3.8rem;
+      
+      .informationProject{
+        // margin-right: 3.8rem;
+      }
+    }
+
   }
   .navigation-low {
     margin-top: 10rem;
@@ -160,4 +170,9 @@
     }
   }
 }
-
+@media (max-width: 280px) {
+  .informationProject {
+    width: 70vw;
+    align-items: left;
+  }
+}
