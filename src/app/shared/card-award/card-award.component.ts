@@ -18,21 +18,21 @@ export class CardAwardComponent implements OnInit {
       category: 'PROJETO DE INOVAÇÃO',
       name: 'Projeto de Pesquisa:',
       description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, ',
+        'Conquista de primeiro lugar em pesquisa na Regional PE da temporada City Shaper 2019/2020.',
       image: '../../../assets/trophy2.png',
     },
     {
       category: 'CORE VALUES',
       name: 'Inspiração:',
       description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, ',
+        'Equipe Inspiradora na Regional PE da temporada Into Orbit 2018/2019.',
       image: '../../../assets/trophy.png',
     },
     {
       category: 'PROJETO DE INOVAÇÃO',
       name: 'Apresentação:',
       description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, ',
+        'Conquista de primeiro lugar em apresentação na Regional PE da temporada Hydro Dynamics 2017/2018.',
       image: '../../../assets/trophy3.png',
     },
   ];
